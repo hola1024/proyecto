@@ -1,0 +1,51 @@
+5;Hogar;Una parte importante de tu huella está asociada a lo que haces en casa, veámos cómo son tus consumos en ella.
+5;¿Compartes casa o vives tú sólo/a?; 
+Vivo solo;23.023;Vivo con 1 persona más;12.4;Vivo con 2 personas más;12.4;Vivo con 3-4 personas más;12.4;Residencia estudiantes, otros;12.4
+4;¿A cuánto asciende la factura eléctrica de tu casa?;El gasto en electricidad está diractamente ligado a emisiones de CO2, al venir una parte de ésta de combustibles fósiles. Esta pregunta no permitirá estimar las emisiones asociadas a tu consumo en casa.
+15-30 $/mes;23.023;30-60 $/mes;12.4;60-120 $/mes;12.4;Más de 120 $/mes;12.4
+6;¿Qué tipo de calefacción tienes en casa?;Cada tipo de calefacción tiene huella de carbono diferente. Conocer cómo es la de tu casa nos permitirá estimarla adecuadamente.
+Gas;23.023;Gasoil;12.4;Madera o biomasa;12.4;Eléctrica;12.4;Calefacción central;12.4;No tengo calefacción;23.43
+4;¿Cuánto gastas en calentar tu casa en un mes tipico de invierno?;El volumen consumido está diractamente ligado al de emisiones. Para la estimación consideramos tanto dicho volumen como el tipo de fuente de energía que empleas.
+15-30 $/mes;23.023;30-60 $/mes;12.4;60-120 $/mes;12.4;Más de 120 $/mes;12.4
+4;¿Cuánto gastas al año en muebles?;Es habitual que cada año renueves de alguna manera tu hogar, o que cada varios años incorpores algún mueble nuevo. Trata de aportar una media badada en un año típico.
+No suelo comprar muebles;23.023;Menos de 200 $/año;12.4;200-1.000 $/año;12.4;Más de 1.000 $/año;12.4;;12.4
+9;Transporte;Moverse deja huella. Veamos cómo de sostenibles son los medios de trasporte que utilizas en tu vida privada.
+4;¿Cuántos vuelos de hasta 2 horas haces cada año para suntos personales?;El avión es un medio de transporte altamente emisivo. Pretendemos estimar tu huella personal, por lo que sólo te preguntamos por los vuelos parte de tu vida privada, obviando los motivados por tu trabajo.
+Raramente vuelo;23.023;1-2 vuelos/año;12.4;3-8 vuelos/año;12.4;Más de 8 vuelos/año;12.4
+5;¿Cuántos vuelos de entre 2 y 6 horas haces al año para asuntos personales?;Recuerda considerar únicamente los vuelos de tu vida privada, obviando los motivados por tu trabajo.
+Ninguno;23.023;1-2 vuelos/año;12.4;3-5 vuelos/año;12.4;6-8 vuelos/año;12.4;Más de 8 vuelos/año;12.4
+5;¿Cuántos vuelos de más de 6 horas haces al año para asuntos personales?;Recuerda considerar únicamente los vuelos de tu vida privada, obviando los motivados por tu trabajo.
+Ninguno;23.023;1-2 vuelos/año;12.4;3-5 vuelos/año;12.4;6-8 vuelos/año;12.4;Más de 8 vuelos/año;12.4
+2;¿Te mueves habitualmente en coche?; 
+Si;23.023;No;12.4
+2;¿Es tuyo el coche en el que más te mueves?; 
+Si;23.023;No;12.4
+6;¿Qué tipo de coche es?;Conoces el tipo y el tamaño de coche que empleas es muy importante para caracterizar sus emisiones. Consideramos un estile de conducción tranquilo.
+Pequeño diésel o gasolina;23.023;Mediano diésel;12.4;Mediano gasolina;12.4;Grande;12.4;Híbrido;12.4;Eléctrico;12.4
+3;¿Cuántas personas compart+is el coche habitualmente?;Las emisiones son compartidas entre todos los ocupantes del vehículo, sólo consideraremos la parte que te corresponde. Para responder, piensa en la ocupación típica de tus desplazamientos durante el año.
+Voy sólo;23.023;Voy con otra persona;12.4;Vamos 3 o más;12.4
+5;¿Cuántos km recorres en coche al año?; 
+0-1.000 km;23.023;1.000-5.000 km;12.4;5.000-10.000 km;12.4;10.000-20.000 km;12.4;Más de 20.000 km;12.4
+5;¿Cada cuánto tiempo sueles cambiar de coche?;Fabricar tu vehículo también es intensivo en emisiones.
+Cada 0-4 años;23.023;Cada 4-8 años;12.4;Cada más de 8 años;12.4;Es un coche de renting;12.4;No tengo coche propio;12.4
+3;Alimentacion; El tipo de alimentación afecta al cambio climático La producción de algunos alimentos es intensiva en emisiones de gases de efecto invernadero.
+5;¿Qué tipo de dieta sigues?;Producir, transportar, conservar y distribuir los alimentos llevan asociadas emisiones de gases de efecto invernadero. Una dieta muy rica en carne conlleva más del doble de emisiones que una dieta sin carne.
+Como de todo, poca carne;23.023;Como de todo, carne frecuentemente;12.4;Como de todo, muchísima carne;12.4;Soy vegetriano/pescatariano;12.4;Soy vegano;12.4
+4;¿Cuál es el gasto semanal por persona en comida y bebida en tu casa?;Trata de aportar una estimación de tu gasto semanal. En caso de que hagas compra para varias personas, calcula la cantidad promedio por persona.
+0-10 $/semana;23.023;10-30 $/semana;12.4;30-50 $/semana;12.4;Más de 50 $/semana;12.4
+5;¿Cuánto gastas en restaurantes y bares en una semana tipo?;Considera aquí todo lo que comes y bebes fuera de casa en establecimientos de hostelería
+Nada;23.023;10-30 $/semana;12.4;30-60 $/semana;12.4;60-200 $/semana;12.4;Más de 200 $/semana;23.43
+6;Estilo de vida;Detrás de cada producto o servicio que disfrutamos hay muchas actividades que inducen emisión de gases de efecto invernader. Vamos a estimar la huella asociada a éstos.
+4;¿Cuánto gastas en ropa y calzado anualmente?; 
+Menos de 300 $/año;23.023;300-600 $/año;12.4;600-1.200 $/año;12.4;Más de 1.200 $/año;12.4
+4;¿Cuál es tu gasto anual en smartphones y sus accesorios?;Lo normal es que cambies de teléfono cada varios años. Divide el precio de tu teléfono por el número de años y así tendremos un promedio anual.
+Menos de 100 $/año;23.023;100-300 $/año;12.4;300-600 $/año;12.4;Más de 600 $/año;12.4
+3;¿Cuánto pagas de teléfono, internet, y otros servicios online (Spotify, Netflix, etc.)?;Todos los servicios online, así como la infraestructura que los hace posibles, requieren realizar mýltiples actividades que conllevan emisiones de gases de efecto invernadero.
+20-40 $/mes;23.023;40-60 $/mes;12.4;Más de 60 $/mes;12.4
+3;¿Cuál es tu gasto anual en ordenadores, televisiones, tabletas y otros similares?;No siempre compramos estos dispositivos cada año. Por ello, piensa en cada cuánto lo compras y cuánto gastas cuando lo haces para calcular un promedio anual.
+Menos de 200 $/año;23.023;200-500 $/año;12.4;Más de 500 $/año;12.4
+5;¿Cuánto gastas anualmente en hoteles, aprartamentos, y otros alojamientos para viajes de placer?;Considera únicamente aquellos asociados a tus actividades de ocio y placer, obviando los debidos a abligaciones profesionales.
+Nada;23.023;Menos de 300 $/año;12.4;300-600 $/año;12.4;600-2.000 $/año;23.43;Más de 2.000 $/año;34.53
+4;¿Cuánto gastas en actividades como gimnasios, piscinas y otras, sean cubiertas o al aire libre?; 
+Menos de 20 $/mes;23.023;20-40 $/mes;12.4;40-100 $/mes;12.4;Más de 100 $/mes;23.43
+;23.023;;12.4;;12.4
