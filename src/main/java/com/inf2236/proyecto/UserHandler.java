@@ -16,8 +16,8 @@ public class UserHandler {
 
 	System.out.print("Ingrese su nombre de etiqueta: ");
         String nickName = input.nextLine();
-	System.out.print("\nIngrese su rut: ");
-        String identifier = input.nextLine();
+	System.out.print("Ingrese su contrasena: ");
+        String contrasena = input.nextLine();
 	System.out.print("\nIngrese su email: ");
         String email = input.nextLine();
 
@@ -39,23 +39,16 @@ public class UserHandler {
 
         } while (dataIsWrong);
 
-        int points = 0;
-        float CO2Savings = 0.0F;
-        CarbonFootprint carbonFootprint = new CarbonFootprint();
-
-        newUser = new User(nickName, identifier, email, birthDate, points, CO2Savings, 
-			   carbonFootprint);
+        newUser = new User(nickName, contrasena, email, birthDate);
 
         userList.add(newUser);
 
 	return newUser;
     }
 
-    public User searchUser(String identifier) {
-	for (int userIndex = 0; userIndex < userList.size(); userIndex++) {
-	    User user = userList.get(userIndex);
-
-	    if (user.getIdentifier().equals(identifier)) {
+    public User searchUser(String nickName) {
+	for (User user : userList) {
+	    if (user.getNickName().equals(nickName)) {
 	        return user;
 	    }
 	}

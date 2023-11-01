@@ -16,7 +16,6 @@ import java.util.ArrayList;
 
 public class Habit {
     private int id;
-    //Concienciado, comprometido, sostenible, the planet hero
     private String tier;
     private String category;
     private String title;

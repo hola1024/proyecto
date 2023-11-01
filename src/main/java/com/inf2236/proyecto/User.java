@@ -6,18 +6,18 @@ import java.text.ParseException;
 import java.util.ArrayList;
 
 public class User {
-    private String nickName;
-    private String identifier;
-    private String email;
-    private Date birthDate;
-    private int points;
-    private float CO2Savings;
-    private CarbonFootprint carbonFootprint;
-    private ArrayList<Habit> habits = new ArrayList<Habit>();
+    protected String nickName;
+    protected String contrasena;
+    protected String email;
+    protected Date birthDate;
+    protected int points;
+    protected float CO2Savings;
+    protected CarbonFootprint carbonFootprint;
+    protected ArrayList<Habit> habits = new ArrayList<Habit>();
 
     public User() {
         this.nickName = "";
-        this.identifier = "";
+        this.contrasena = "";
         this.email = "";
         this.birthDate = new Date();
 	this.points = 0;
@@ -25,21 +25,19 @@ public class User {
 	this.carbonFootprint = new CarbonFootprint();
     }
     
-    public User(String nickName, String identifier, String email, Date birthDate, 
-		int points, float CO2Savings, CarbonFootprint carbonFootprint) {
+    public User(String nickName, String contrasena, String email, Date birthDate) {
         this.nickName = nickName;
-        this.identifier = identifier;
+        this.contrasena = contrasena;
         this.email = email;
         this.birthDate = birthDate;
-	this.points = points;
-	this.CO2Savings = CO2Savings;
-	this.carbonFootprint = carbonFootprint;
+	this.points = 0;
+	this.CO2Savings = 0.0F;
+	this.carbonFootprint = null;
     }
 
     public void printUser() {
-	System.out.println("Nombre: " + nickName + "\nRut: " + identifier + "\nEmail: " + email + 
-			   "\nFecha de nacimiento: " + birthDate + "\nPuntos: " + points + 
-			   "\nAhorro de CO2: " + CO2Savings);
+	System.out.println("Nombre: " + nickName + "\nEmail: " + email + "\nFecha de nacimiento: " + 
+			   birthDate + "\nPuntos: " + points + "\nAhorro de CO2: " + CO2Savings);
     }
 
     public void setNickName(String nickName) {
@@ -48,14 +46,6 @@ public class User {
     
     public String getNickName() {
         return this.nickName;
-    }
-    
-    public void setIdentifier(String identifier) {
-        this.identifier = identifier;
-    }
-    
-    public String getIdentifier() {
-        return this.identifier;
     }
     
     public void setEmail(String email) {

@@ -2,6 +2,7 @@
 
 package com.inf2236.proyecto;
 
+import UI.frame;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -171,6 +172,8 @@ public class Proyecto {
     }
 
     public static void main(String[] args) {
+	new frame().setVisible(true);
+/*
 	Scanner input = new Scanner(System.in);
 	UserHandler userHandler = new UserHandler();
 	User user = new User();
@@ -197,14 +200,14 @@ public class Proyecto {
 
 		case 1: {
 	            System.out.print("\nIngrese su rut: ");
-		    String identifier = input.nextLine();
-		    user = userHandler.searchUser(identifier);
+		    String nickName = input.nextLine();
+		    user = userHandler.searchUser(nickName);
 
 		    if (user != null) {
                         userMenu(userHandler, user);
 		    } else {
 	                System.out.println("\nNo se ha encontrado un usuario con el rut " + 
-					   identifier);
+					   nickName);
 
 	                System.out.print("\nPresione Enter ");
 	                String garbage = input.nextLine();
@@ -221,5 +224,6 @@ public class Proyecto {
 
             System.out.print("\033[H\033[2J");
 	} while (!exit);
+*/
     }
 }
