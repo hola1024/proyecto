@@ -68,7 +68,7 @@ public class Proyecto {
 
 		    Habit habit = Habit.getHabitByIdInArray(globalHabitList, habitId);
 
-		    if (Habit.isValidHabit(habit)) {
+		    if (habit != null) {
 			user.setHabits(Habit.addHabitToArray(user.getHabits(), habit));
 		    }
 		} break;
@@ -115,7 +115,8 @@ public class Proyecto {
 	garbage = input.nextLine();
     }
 
-    public static void userMenu(UserHandler userHandler, User user) {
+    public static void userMenu() {
+	UserHandler userHandler = new UserHandler();
 	Scanner input = new Scanner(System.in);
 
 	boolean exit = false;

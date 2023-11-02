@@ -77,10 +77,6 @@ public class Habit {
 	}
     }
 
-    public static boolean isValidHabit(Habit habit) {
-	return habit.getId() != -1;
-    }
-
     public static Habit searchHabitById(ArrayList<Habit> habits, int id) {
 	for (int habitIndex = 0; habitIndex < habits.size(); habitIndex++) {
 	    Habit habit = habits.get(habitIndex);
@@ -89,12 +85,12 @@ public class Habit {
 	    }
 	}
 
-        return new Habit();
+        return null;
     }
 
     public static ArrayList<Habit> addHabitToArray(ArrayList<Habit> habits, Habit habit) {
         Habit habitFind = Habit.searchHabitById(habits, habit.getId());
-	if (!Habit.isValidHabit(habitFind)) {
+	if (habitFind != null) {
             habits.add(habit);
 	}
 	
@@ -111,7 +107,7 @@ public class Habit {
             return habits.get(index);
 	}
 
-        return new Habit();
+        return null;
     }
 
     public void setId(int id) {

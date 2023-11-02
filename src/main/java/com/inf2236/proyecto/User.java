@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class User {
     protected String nickName;
-    protected String contrasena;
+    protected String pasword;
     protected String email;
     protected Date birthDate;
     protected int points;
@@ -17,7 +17,7 @@ public class User {
 
     public User() {
         this.nickName = "";
-        this.contrasena = "";
+        this.pasword = "";
         this.email = "";
         this.birthDate = new Date();
 	this.points = 0;
@@ -25,9 +25,9 @@ public class User {
 	this.carbonFootprint = new CarbonFootprint();
     }
     
-    public User(String nickName, String contrasena, String email, Date birthDate) {
+    public User(String nickName, String pasword, String email, Date birthDate) {
         this.nickName = nickName;
-        this.contrasena = contrasena;
+        this.pasword = pasword;
         this.email = email;
         this.birthDate = birthDate;
 	this.points = 0;
@@ -46,6 +46,14 @@ public class User {
     
     public String getNickName() {
         return this.nickName;
+    }
+    
+    public void setPasword(String pasword) {
+        this.pasword = pasword;
+    }
+    
+    public String getPasword() {
+        return this.pasword;
     }
     
     public void setEmail(String email) {

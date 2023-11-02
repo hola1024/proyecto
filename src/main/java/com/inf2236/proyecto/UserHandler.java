@@ -7,7 +7,8 @@ import java.text.ParseException;
 import java.util.ArrayList;
 
 public class UserHandler {
-    private ArrayList<User> userList = new ArrayList<User>();
+    static User actualUser;
+    static private ArrayList<User> userList = new ArrayList<User>();
 
     public User createNewAccount() {
 	User newUser = new User();
